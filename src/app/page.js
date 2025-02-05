@@ -8,18 +8,19 @@ export default function Home() {
       <section className={styled.esquerda}>
         <div className={styled.esquerdaTitulo}>
           <h1>Bem-Vindo</h1>
-          <p>Crie sua conta agora mesmo.</p>
+          <p>Crie sua conta agora mesmo</p>
         </div>
       </section>
 
-      <section className={styled.direita}>
-        <div className={styled.direitaTitulo}>
-          <Image />
+      <div className={styled.logo}>
+          {/* <Image src={""} alt="" /> */}
           <p>Web Cars</p>
         </div>
 
+      <section className={styled.direita}>
+        <p>Criar sua conta</p>
         <div className={styled.containerForm}>
-          <p>Criar sua conta</p>
+          
 
           <main className={styled.form}>
             <div>
@@ -53,7 +54,7 @@ export default function Home() {
             </div>
           </main>
 
-          <div>
+          <div className={styled.footerForm}>
             <button type="submit" className={styled.btnCriarConta}>Criar Conta</button>
             <p>Já possui uma conta? <a href="#">Login</a></p>
           </div>
