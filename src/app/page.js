@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { IconSenha } from "../assets/iconSenha.svg"
+import  IconSenha  from "../assets/iconSenha.svg"
+import Logo  from "../assets/logo.svg"
 import styled from "../style/login.module.css";
 
 export default function Home() {
@@ -13,9 +14,11 @@ export default function Home() {
         </div>
       </section>
 
-      <div className={styled.logo}>
-        {/* <Image src={""} alt="" /> */}
+      <div>
+        <div className={styled.logo}>
+        <Image src={Logo} alt="aa" width={55} height={55}/>
         <p>Web Cars</p>
+        </div>
       </div>
 
       <section className={styled.direita}>
