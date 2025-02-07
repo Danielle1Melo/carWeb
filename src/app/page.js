@@ -5,8 +5,6 @@ import Logo  from "../assets/logo.svg"
 import styled from "../style/login.module.css";
 import { useRouter } from "next/navigation";
 
-
-
 export default function Home() {
   const router = useRouter();
   return (
@@ -63,7 +61,7 @@ export default function Home() {
 
           </main>
           <div className={styled.footerForm}>
-              <button type="submit" className={styled.btnCriarConta} onClick={() => router.push('../components/ListaDesejos/listaDesejos')}>Criar Conta</button>
+              <button type="submit" className={styled.btnCriarConta} onClick={() => router.push('../listaDesejos')}>Criar Conta</button>
               <p>Já possui uma conta? <a href="#">Login</a></p>
           </div>
 

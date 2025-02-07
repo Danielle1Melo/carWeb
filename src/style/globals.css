@@ -3,9 +3,11 @@
   --vermelho-hover: #a52929;
   --cinzaI: #333333;
   --cinzaII: #505050;
-  --branco: #eeeeee;
+  --cinzaIII: #d9d9d9;
+  --brancoI: #eeeeee;
   --brancoII: #efefef;
-  --brancoIII: #d9d9d9;
+  
+  --branco: #ffffff;
 }
 
 body {

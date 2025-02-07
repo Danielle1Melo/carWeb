@@ -1,6 +1,7 @@
 import Image from "next/image";
-import styled from "../style/listaDesejos.module.css";
+import styled from "../../style/listaDesejos.module.css";
 import carImage from "../../assets/carImage.svg"
+import Header from "@/components/header/Header";
 
 const carItens = [
     {
@@ -40,10 +41,11 @@ const carItens = [
     },
 ]
 
-export function ListaDesejos() {
+export default function ListaDesejos() {
     return (
         <div className={styled.container}>
-            {carItens.map((item) => {
+            <Header />
+            {/* {carItens.map((item) => {
                 return (
                     <div className={styled.cards} key={item.id}>
                         <Image src={item.imagem} alt="" />
@@ -51,7 +53,7 @@ export function ListaDesejos() {
                         <button className={styled.button}>Veja mais</button>
                     </div>
                 )
-            })}
+            })} */}
         </div>
     )
 }
