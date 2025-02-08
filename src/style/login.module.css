@@ -66,7 +66,7 @@
 }
 
 .containerForm{
-  background-color: var(--brancoIII);
+  background-color: var(--cinzaIII);
   border-radius: 15px;
   padding: 1rem 2rem;
 }
@@ -103,7 +103,7 @@
 }
 
 .form >div > input::placeholder{
-  color: var(--brancoIII);
+  color: var(--cinzaIII);
   font-size: 1.1rem;
   text-align: start;
 }
