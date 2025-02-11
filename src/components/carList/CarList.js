@@ -1,4 +1,4 @@
-import carImage from "../../assets/carImage.svg"
+import carImage from "../../assets/car.jpeg"
 import AddIcon from "../../assets/addIcon.svg"
 import styled from "../../style/carList.module.css"
 import Image from "next/image";
@@ -63,9 +63,8 @@ export default function CarList() {
 
                 {carItens.map((item) => {
                     return (
-
                         <div className={styled.cards} key={item.id}>
-                            <Image src={item.imagem} alt="" width={255} height={255} />
+                            <Image src={item.imagem} alt="" width={280} height={280} />
                             <p>{item.desc}</p>
                             <button className={styled.button}>Veja mais</button>
                         </div>
